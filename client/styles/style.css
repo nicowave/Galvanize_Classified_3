@@ -1,0 +1,64 @@
+
+h5 {
+  font-weight: bold;
+  padding-left: 8px;
+}
+
+.item-image {
+  align-content: center;
+  padding: 20;
+  height: 320px;
+  width: 320px;
+}
+
+.g-header {
+  font-size: 8.0rem;
+  color: orange;
+  text-align-last: center;
+}
+
+.cancel {
+  background-color: red;
+  color: white;
+}
+
+.reset {
+  background-color: red;
+  color: white;
+}
+
+.delete:hover {
+  color: red;
+  border-color: red;
+}
+
+.edit:hover {
+  color: #33C3F0;
+  border-color: #33C3F0;
+}
+
+.create:hover {
+  background-color: #33C3F0;
+  color: #fff;
+  border-color: #0FA0CE;
+}
+
+#sort:hover {
+  border-color: #0FA0CE;
+}
+
+.attribution {
+  text-align-last: center;
+  font-size: 1.0rem;
+}
+
+@media (max-width: 520px) {
+  .item-image {
+    width: 50%;
+    height: 50%;
+    padding: 1; }
+  .g-header {
+    text-align: left;
+    font-size: 3.0rem;
+  }
+}
