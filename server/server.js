@@ -12,18 +12,18 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 
 
-const advertisements = require('./server/routes/advertisements');
+const advertisements = require('./routes/advertisements');
 
 app.use('/advertisements', advertisements);
 
-app.use('/views', express.static(path.join(__dirname, './client/views')));
-app.use('/javascripts', express.static(path.join(__dirname, './client/javascripts')))
-app.use('/styles', express.static(path.join(__dirname, './client/styles')))
+app.use('/views', express.static(path.join(__dirname, '../client/views')));
+app.use('/javascripts', express.static(path.join(__dirname, '../client/javascripts')))
+app.use('/styles', express.static(path.join(__dirname, '../client/styles')))
 
 
 // sends you to index on initialization of webpage
 app.use('*', function(req, res, next) {
-  res.sendFile('index.html', {root: path.join(__dirname, '/client/')})
+  res.sendFile('index.html', {root: path.join(__dirname, '../client/')})
 })
 
 
