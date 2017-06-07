@@ -50,7 +50,7 @@ exports.seed = function(knex, Promise) {
       }).then(function () {
         return knex('classifieds').insert(
         {
-          id:4,
+          id:5,
           title:"Seven Lions",
           description:"Seven Lions concert tickets at the Heat nightclub in Orange County, California on November 25th",
           price:36,
@@ -61,7 +61,7 @@ exports.seed = function(knex, Promise) {
       }).then(function () {
         return knex('classifieds').insert(
         {
-          id:5,
+          id:6,
           title:"Illenium concert tickets",
           description:"Illenium concert tickets for the midwest; Cleveland, Milwaukee, Minneapolis, Kansas City; Featuring 'Said The Sky'",
           price:39,
@@ -72,7 +72,7 @@ exports.seed = function(knex, Promise) {
       }).then(function () {
         return knex('classifieds').insert(
         {
-          id:6,
+          id:7,
           title:"Coachella Tickets: Week 2",
           description:"Tickets to the Southern California Coachella music and arts festival, weekend 2",
           price:450,
@@ -83,7 +83,7 @@ exports.seed = function(knex, Promise) {
       }).then(function () {
         return knex('classifieds').insert(
         {
-          id:7,
+          id:8,
           title:"2017 Bonnaroo Tickets",
           description:"2017 Bonnaroo Tickets: June 16th to 18th in Manchester, Tennessee",
           price:425,
@@ -94,8 +94,8 @@ exports.seed = function(knex, Promise) {
       }).then(function () {
         return knex('classifieds').insert(
         {
-          id:8,
-          title: "Madeon X Family Bracelet",
+          id:9,
+          title: "Madeon Electric Family Bracelet",
           description: "Madeon X Family Bracelet",
           price:16,
           item_image:"http://orig04.deviantart.net/06b8/f/2015/160/1/7/madeon_electric_family_bracelet_by_geekycreeper-d8wp7cf.png",
