@@ -9,6 +9,9 @@
     "heroku-postbuild": "knex migrate:rollback --knexfile ./server/knexfile.js; knex migrate:latest --knexfile ./server/knexfile.js; knex seed:run --knexfile ./server/knexfile.js;",
     "nodemon": "node ./server/server.js"
   },
+  "engines": {
+    "node": "v7.7.2"
+  },
   "keywords": [],
   "author": "nico roldos",
   "description": "## Read the entire README before beginning. Commit often.",
