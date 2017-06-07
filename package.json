@@ -9,20 +9,19 @@
     "heroku-postbuild": "knex migrate:rollback --knexfile ./server/knexfile.js; knex migrate:latest --knexfile ./server/knexfile.js; knex seed:run --knexfile ./server/knexfile.js;",
     "nodemon": "node ./server/server.js"
   },
-  "engines": {
+  /*"engines": {
     "node": "7.7.2",
     "npm": "4.1.2"
-    },
+  },*/
   "keywords": [],
   "author": "nico roldos",
   "description": "## Read the entire README before beginning. Commit often.",
   "dependencies": {
     "body-parser": "^1.17.1",
     "cookie-parser": "^1.4.3",
-    "express": "^4.15.2",
+    "express": "4.15.3",
     "knex": "^0.12.6",
     "morgan": "^1.8.1",
-    "node": "^7.7.2",
     "pg": "^6.1.0"
   },
   "devDependencies": {
